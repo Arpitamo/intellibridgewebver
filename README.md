@@ -1,0 +1,1 @@
+IntelliBridge Lite Clone is a responsive React web application built to showcase modern UI/UX design and front‑end development skills, featuring clean navigation, modular components, and a recruiter‑friendly portfolio layout. The project demonstrates practical use of React, CSS, and JavaScript, with deployment handled via Vercel for easy access and sharing.  
