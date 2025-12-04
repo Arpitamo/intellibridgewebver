@@ -1,0 +1,93 @@
+.domains {
+  background: #f0f0f0;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.domains h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+.domains h5{
+  text-align:center;
+  background-color: #f5f7d2;
+  color:brown;
+  padding: 0.3rem;
+  border-radius: 4px;
+  width: fit-content;         
+  margin: 0 auto;             
+  max-width: 80%;            
+}
+.domains p {
+  font-size: 1rem;
+  margin-bottom: 40px;
+  color: #666;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.domstr{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+/*single single dom boxes*/
+.dombox{
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 350px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.dombox:hover {
+  transform: translateY(-5px);
+}
+
+.dombox h3 {
+  font-size: 1.5rem;
+  color: #a36bb0;
+  margin-bottom: 10px;
+}
+
+.dombox p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.dsec h4 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.dsec ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.dsec li{
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.ebtn{
+  background: #a36bb0;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 10px;}
+
+.ebtn:hover {
+  background: #8f58a0;
+}

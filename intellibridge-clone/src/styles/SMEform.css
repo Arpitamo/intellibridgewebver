@@ -1,0 +1,85 @@
+.SMEform{
+  padding:40px 20px;
+  background-color: #f9f9f9;
+  font-family:'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.SMEform h2{
+  text-align:center;
+  margin-bottom:30px;
+  font-size:28px;
+  color: #222;
+}
+
+.SMEform h3 {
+  margin-top:30px;
+  font-size:20px;
+  color: #444;
+  border-bottom:2px solid #ddd;
+  padding-bottom:5px;
+}
+
+/*form Box */
+.box {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.box input,
+.box textarea,
+.box select{
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.box textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Submit Button */
+.box button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.box button:hover {
+  background-color: #0056b3;
+}
+/* Success Message */
+.msg {
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}
+/* Responsive */
+@media (max-width: 600px) {
+  .box {
+    padding: 20px;
+  }
+
+  .SMEform h2 {
+    font-size: 24px;
+  }
+
+  .SMEform h3 {
+    font-size: 18px;
+  }
+}

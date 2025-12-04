@@ -1,0 +1,160 @@
+.form {
+  background: #f9f9f9;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.form h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+.form h5{
+  text-align:center;
+  background-color: #eaeae9;
+  color:rgb(13, 119, 22);
+  padding: 0.3rem;
+  border-radius: 4px;
+  width: fit-content;         
+  margin: 0 auto;             
+  max-width: 80%;            
+}
+.formc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.box {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box input,
+.box textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.box textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.box button {
+  background: #a36bb0;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.box button:hover {
+  background: #8f58a0;
+}
+
+.details {
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+  text-align: left;
+}
+
+.details h3 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #a36bb0;
+}
+
+.details p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.social{
+  display: flex;
+  gap: 15px;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.social img {
+  width: 30px; 
+  height: 30px;  
+  object-fit: contain; /* keeps aspect ratio inside the box */
+}
+/* FAQ wrapper */
+.faq {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Section headings */
+.faq h3 {
+  text-align: center;
+  color: #6a4bc3;
+  margin-bottom: 0.5rem;
+}
+
+.faq h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* Each FAQ item */
+.faq-item {
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #f9f9f9;
+  transition: box-shadow 0.3s ease;
+}
+
+.faq-item:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Question button */
+.faq-qs {
+  width: 100%;
+  text-align: left;
+  background: #ebe9f1;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #333;
+}
+
+.faq-qs:hover {
+  background: #b7a6e6;
+}
+
+/* Answer section */
+.faq-ans {
+  padding: 1rem;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  animation: fadeIn 0.3s ease;
+}
+
+.faq-ans p {
+  margin: 0;
+  color: #555;
+  line-height: 1.5;
+}

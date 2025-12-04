@@ -1,0 +1,176 @@
+.pjourney h5 {
+  text-align:center;
+  background-color: #926bf6;
+  padding: 0.3rem;
+  border-radius: 4px;
+  width: fit-content;         
+  margin: 0 auto;             
+  max-width: 80%;            
+}
+.pjourney {
+  background: #fdfdfd;
+  padding:60px 30px;
+  text-align:center;
+}
+
+.pjourney h2{
+  font-size: 2rem;
+  margin-bottom:10px;
+  color: #333;
+}
+
+.pjourney p {
+  font-size: 1rem;
+  margin-bottom:40px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
+/*box structuree*/
+.jstruct{
+  display: flex;
+  flex-wrap:wrap;
+  gap: 30px;
+  justify-content:center;
+  margin-bottom: 40px;
+}
+/*big box*/
+.journey-card{
+  background: #f5f0fa;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 280px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.journey-card .icon{
+  font-size:2rem;
+  margin-bottom: 10px;
+}
+
+.journey-card h3{
+  font-size:1.2rem;
+  color: #7646c4;
+  margin-bottom: 10px;
+}
+.journey-card p {
+  font-size:0.95rem;
+  color: #444;
+}
+.benefits{
+  margin-top: 40px;
+}
+
+.benefits h3{
+  font-size: 1.5rem;
+  margin-bottom:20px;
+  color: #333;}
+.benefits ul {
+  list-style: none;
+  padding: 0;
+  max-width:600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.benefits li{
+  font-size:0.95rem;
+  margin-bottom:10px;
+  color: #555;
+}
+.mreasons{
+  margin-top: 50px;}
+
+.mreasons h3{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color:#333;
+}
+
+.rstr {
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content:center;
+}
+
+.rbox {
+  background: #e6e0f0;
+  padding: 12px 20px;
+  border-radius:6px;
+  font-weight:500;
+  color: #333;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.footer{
+  margin-top: 60px;
+  background: linear-gradient(to right, #7057df, #7c4da0);
+  color: white;
+  padding:50px 30px;
+  text-align:center;
+  border-radius: 10px;
+}
+.footer h1{
+  color:white;
+}
+.footerstr{
+  display: flex;
+  flex-wrap: wrap;
+  gap:30px;
+  justify-content:center;
+  margin-bottom: 40px;
+}
+/*small box inside big box*/
+.sbox{
+  background: rgba(208, 196, 196, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  min-width:200px;
+  font-size:1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.sbox strong {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom:5px;
+}
+
+.join h3{
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+.join p {
+  color:#e6e0f0;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.applybtn {
+  background: white;
+  color: #a36bb0;
+  border:none;
+  padding: 10px 20px;
+  border-radius:5px;
+  font-weight:600;
+  cursor:pointer;
+  margin-top: 10px;
+}
+
+.applybtn:hover {
+  background: #f0f0f0;
+}
+
+.trusted {
+  color:white;
+  margin-top:40px;
+  font-size: 1rem;
+  font-weight:500;
+  letter-spacing: 1px;
+}
+.trusted p{
+    color:white;}
